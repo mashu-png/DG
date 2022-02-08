@@ -131,4 +131,8 @@
        background-color: #EDEDED;
        display: inline-block;
    }
+   p.BIO_P{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+   }
   }

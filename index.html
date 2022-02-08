@@ -2,109 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-    <style>
-    @media screen and (max-width: 480px) {
-      body{
-        margin: 0px;
-      }
-      div.TopTitle{
-      height: 20px;
-      color: #ffffff;
-      font-size:14px;
-      background-color: #C10000;
-      margin: 0px;
-      width:100%;
-     }
-     div.header_Top{
-       background-color: #000000;
-       text-align: center;
-       height: 45px;
-       color: #ffffff;
-     }
-     b.DG{
-       font-size: 37px;
-     }
-     b.DG1{
-       color: Yellow;
-       font-size: 15px;
-     }
-     div.under_header{
-       text-align:center;
-       color:#ffffff;
-       background-color:#000000;
-       margin-left:15%;
-       margin-right:15%;
-       border-radius: 0% 0% 45% 45%;
-     }
-     span.under_header{
-       font-size:15px;
-     }
-     div.main_TOP{
-       font-size:15px;
-     }
-     div.tweet{
-       color: #ffffff;
-       background-color: #00BFFF;
-       margin-right: 25px;
-       margin-left:77%;
-       border-radius: 25px;
-       text-align: right;
-       margin-bottom:5px;
-     }
-     span.tweet{
-       width:35px;
-       height:45px;
-       font-size: 15px;
-     }
-     div.boy_profile{
-       background-color: #000000;
-       margin-left:5px;
-       margin-right:5px;
-       border-radius:25px 25px 0 0;
-     }
-     b.names{
-       color:#ffffff;
-       font-size:25px;
-       margin-left:10px;
-       margin-bottom:0px;
-     }
-     span.sex{
-       color:#ffff00;
-       font-size:14.5px;
-     }
-     div.boy_size{
-       margin-left:9px;
-       font-size:17.5px;
-       color:#ffffff;
-     }
-     div.Ranking{
-       background-color: #fe1436;
-       color:#f5fe00;
-       margin-left: 5px;
-       margin-right:5px;
-       text-align:center;
-       font-size:19px;
-       border-radius: 5px;
-     }
-     div.plays{
-       padding:0px 0px 0px 0px;
-       margin-top:0px;
-       margin-left:5px;
-       margin-right:5px;
-       margin-bottom:0px;
-       background-color:#EDEDED;
-     }
-     p.playline{
-      margin-block-start: 0px;
-      margin-block-end: 0px;
-     }
-     div.fhoto{
-       margin-top:5px;
-       margin-left:5px;
-       margin-right:5px;
-     }
-    }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -146,13 +44,30 @@
         <div class="fhoto">
           <img src="https://drive.google.com/uc?id=1wScjhvV3V5BPQK0T53q0zEqJisSLuSOQ" width='370' height="245"class="Top_fhoto">
          </div>
+         <div class="fhoto2">
+            <img src="https://drive.google.com/uc?id=1OQXoALqXD82JGMuXimx_siUEjV8LbWvf" width="182.5" height="273.75"class="Left_fhoto">
+            <img src="https://drive.google.com/uc?id=1i--hhs4YVdnsLpuMQtTUt4yWs9Qndcf7" width="182.5" height="273.75"class="Right_fhoto">
+         </div>
+         <div class="fhoto3">
+             <img src="https://drive.google.com/uc?id=1qfMVSuJzk6DqVtHAR47RrZ6NIoAzaBqU" width="370" height="245" class="Under_fhoto">
+         </div>
       </div>
+      <div class="Features">
+          <img src="https://www.dgdgdg.com/user_data/packages/sphone/img/mark01.png
+          " width="68" height="44" class="Features_IMG">
+          <h2 class="Features_Text">ボーイの特徴</h2>
+      </div>
+      <div class="Features_Texts">
+          <h5>ゲイ</h5>
+          <h5>デカチン</h5>
+          <h5>うんこ大好き</h5>
+      </div>
+      <div class="Features">
+        <img src="https://www.dgdgdg.com/user_data/packages/sphone/img/mark01.png
+        " width="68" height="44" class="Features_IMG">
+        <h2 class="Features_Text">見た目の印象</h2>
+    </div>
     </main>
   </body>
-  <script>
-    let Ranking_Element = document.getElementById('Ranking');
-    let date = new Date();
-    let Month = date.getMonth()+1;
-    Ranking_Element.innerHTML =Month + "月度1位";
-  </script>
+  <script src="system.js"></script>
 </html>

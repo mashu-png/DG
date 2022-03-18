@@ -5,7 +5,7 @@ Ranking_Element.innerHTML =Month + "月度1位";
 
 let header_Element = document.getElementById('DG_TOP');
 header_Element.addEventListener('click',function(){
-    location.href = 'http://www.genky.co.jp/';
+    location.href = 'Cast/index.html';
 });
 
 let Tweet_btn_Element = document.getElementById('tweet');

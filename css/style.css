@@ -1,0 +1,240 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Impact,Haettenschweiler,Franklin Gothic Bold,Charcoal,Helvetica Inserat,Bitstream Vera Sans Bold,Arial Black,sans serif; 
+	background-color: #ffffff;
+}
+@media screen and (max-width: 479px) {
+	.header_Title{
+		background-color: #000000;
+		margin: 0%;
+		padding: 0%;
+	}
+	p.header_Text{
+		color: yellow;
+		margin: 0%;
+		padding: 0%;
+	}
+	.single-item{
+		padding: 0%;
+		margin: 0%;
+	}
+	ul {
+		display: flex;
+		padding: 0%;
+	}
+	li{
+		margin: 0% auto;
+	}
+	.inline_menu{
+		font-size: 35px;
+		color:#ffffff;
+	}
+	.B-time{
+		color: red;
+	}
+	.main_contents{
+		color: #ffffff;
+		background-color: #ffffff;
+		border-radius: 25px 25px 0px 0px;
+		margin: 0 auto;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	#Month_Ranking{
+		color: #ffffff;
+	}
+	.Pink_Text{
+		color: #ffffff;
+		font-size: 35px;
+	}
+	#company_text{
+		color: #ffffff;
+		background-color: #ffffff;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.Event_Text{
+		background-color: #ffffff;
+		color: #ffffff;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.Event_images{
+		display: none;
+		margin: 0 auto;
+	}
+	.Price_List{
+		background-color: #ffffff;
+		color: #ffffff;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.Price{
+		background-color: #ffffff;
+		color: #ffffff;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	table{
+		text-align: center;
+		margin: 0 auto;
+	}
+	.Locations{
+		background-color: #ffffff;
+		color: #ffffff;
+		margin-left: 5px;
+		margin-right: 5px;
+		/*padding-bottom: 5px;*/
+		/*border-radius: 0px 0px 25px 25px;*/
+	}
+	.Locations_Text{
+		margin-left: 10px;
+	}
+	.Business_Hours{
+		background-color: #ffffff;
+		color: #ffffff;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.Business_Text{
+		margin-left: 10px;
+	}
+	.Holiday{
+		background-color: #ffffff;
+		color: #ffffff;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.Holiday_Text{
+		margin-left: 10px;
+	}
+	.TEL{
+		background-color: #ffffff;
+		color: #ffffff;
+		margin-right: 5px;
+		margin-left: 5px;
+		padding-bottom: 7.5px;
+		border-radius:  0px 0px 25px 25px;
+	}
+	.TEL_Text{
+		margin-left: 10px;
+	}
+	.footer{
+		color: #ffffff;
+		background-color: #ffffff;
+	}
+	.Contents_Title{
+		color: #ffffff;
+		font-size: 50px;
+		text-align: center;
+	}
+	.Img_container{
+		text-align: center;
+	}
+	.DG_Live{
+		display: none;
+	}
+	.footer{
+		text-align: center;
+	}
+	.Cast_Text{
+		margin-left: 5px;
+		position: relative;
+		font-size: 30px;
+		color: #ffffff;
+		line-height: 1.4;
+		-webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 10%,rgba(0, 0, 0, 0.6));
+	  }
+	  .Riku_inline_Text{
+		  margin-top: 25px;
+		  margin-left: 5px;
+		  margin-right: 5px;		  
+		  border: 1px black ;
+	  }
+	  .Cast_Name{
+		  color: #ffffff;
+	  }
+	  .riku {
+		  display: none;
+		  text-align: center;
+	  }
+	  .Riku_Text_Logo{
+		  display: none;
+		  margin-left: 5px;
+	  }
+	  .FAQ_Text{
+		margin-left: 5px;
+		position: relative;
+		font-size: 30px;
+		color: #ffffff;
+		line-height: 1.4;
+		-webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 10%,rgba(0, 0, 0, 0.6));
+	  }
+	  .FAQ_Main_Text{
+		  width: 100%;
+		  margin: 0 auto;
+		  margin-top: 20px;
+	  }
+	  .FAQ_Trigger{
+		  margin: 0px;
+		  padding: 10px;
+		  display: block;
+		  background-color: #ffffff;
+		  color: #ffffff;
+		  border-top: 1px solid #ffffff;
+	  }
+	  .Answer_Contents{
+		  display: none;
+		  margin: 0px;
+		  padding: 10px;
+		  border: 1px solid #ffffff;
+	  }
+	  .Contact_Title{
+		margin-left: 5px;
+		position: relative;
+		font-size: 30px;
+		color: #ffffff;
+		line-height: 1.4;
+		-webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 10%,rgba(0, 0, 0, 0.6));
+	  }
+	  .Contact_Box{
+		  color: #ffffff;
+		  background-color: #ffffff;
+		  text-align: center;
+		  margin-top: 20px;
+		  margin-left: 10px;
+		  margin-right: 10px;
+	  }
+	  .ValueButton{
+		  display: none;
+		  text-align: center;
+		  width: 25%;
+		  font-size: 15px;
+		  border-radius: 7.5px 7.5px 7.5px 7.5px;
+	  }
+	  .Name_Text_Box{
+		  display: none;
+	  }
+	  .TEL_Text_Box{
+		  display: none;
+	  }
+	  .Message_Text_Box{
+		  display: none;
+	  }
+}
+div.Main_Header{
+	padding: 0%;
+}
+ul{
+	list-style: none;
+}
+.Top_menu{
+	padding: 0%;
+}
+.Slides_Image{
+	margin: 0 auto;
+	padding: 0px;
+}

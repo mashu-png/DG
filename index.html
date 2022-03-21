@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>DGTOP</title>
+</head>
+<body>
+    <header>
+        <div class="header_Title">
+            <p class="header_Text"><b>男子学園吉良吉田店</b></p>
+        </div>
+    <div class="single-item">
+        <!--ここからスライドショー-->
+        <div ><img src="https://drive.google.com/uc?id=1qfMVSuJzk6DqVtHAR47RrZ6NIoAzaBqU" width="100%" height="150" class="Slides_Image" id="Top_IMG"></div>
+        <div><img src="https://drive.google.com/uc?id=1hBFj9snCrSJdZo75heiW041N2uV7NmGV" width="100%" height="150" class="Slides_Image" id="Top_IMG"></div>
+        <div><img src="https://drive.google.com/uc?id=1wScjhvV3V5BPQK0T53q0zEqJisSLuSOQ" width="100%" height="150" class="Slides_Image" id="Top_IMG"></div>
+    </div>
+    </header>
+    <main>
+        <div class="Main_Header">
+            <ul class="Top_menu">
+                <li id="Home" class="inline_menu Now_File"><b>Home</b></li>
+                <li id="Cast" class="inline_menu"><b>Cast</b></li>
+                <li id="FAQ" class="inline_menu"><b>FAQ</b></li>
+                <li id="Contact" class="inline_menu"><b>Contact</b></li>
+            </ul>
+        </div>
+        <div id="Main_TOP">
+            <div class="main_contents">
+                <marquee scrollamount="5">
+                    <b>男子学園吉良吉田店へようこそ! [営業時間] 13:00~25:00 [TEL] 052-265-6900 気になる子を見つけましたら気軽にお電話下さい！</b>
+                </marquee>
+            </div>
+            <div id="company_text">
+                <span>世界で一番<b><b class="Pink_Text">エッチ</b></b>なお店</span>
+            </div>
+            <div class="Event_Text">
+                <span class="Event_color">只今期間限定のイベントを開催しております。</span>
+                <img src="https://drive.google.com/uc?id=17RwJweKAhgN60hik1s6O-7R9ktr0hhva"
+                alt="Event_IMG"
+                width="100%"
+                class="Event_images"/>
+            </div>
+            <P class="Price">料金表</P>
+            <div class="Price_List">
+                <table border="0" align="center">
+                    <tr>
+                        <td width="80px">プレイ内容</td>
+                        <td width="80px">ノーマル</td>
+                        <td width="80px">SM</td>
+                        <td width="80px">スカトロ</td>
+                    </tr>
+                    <tr>
+                        <td width="80px">金額</td>
+                        <td width="80px">13000~</td>
+                        <td width="80px">25000~</td>
+                        <td width="80px">55000~</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="Locations">
+                <p class="Locations_Title" id="Location_Title">所在地</p>
+                <span class="Locations_Text" id="Location_Text">〒444-0516 愛知県西尾市吉良町吉田八ツ田２７</span>
+            </div>
+            <div class="Business_Hours">
+                <p class="Business_Title" id="Business_Title">営業時間</p>
+                <span class="Business_Text" id="Business_Text">13:00~25:00</span>
+            </div>
+            <div class="Holiday">
+                <p class="Holiday_Title" id="Holiday_Title">定休日</p>
+                <span class="Holiday_Text" id="Holiday_Text">6月9日のみ</span>
+            </div>
+            <div class="TEL">
+                <p class="TEL_Title" id="TEL_TItle">TEL</p>
+                <span class="TEL_Text" id="TEL_Text"><a href="tel:0522656900" style="text-decoration: none; color: white;">052-265-6900</a></span>
+            </div>
+        </div>
+    <div class="Contents">
+        <div class="Contents_Title">~Contents~</div>
+        <div class="Img_container">
+            <img src="https://drive.google.com/uc?id=1VaXauWlZQ28Q8rZRKrGXbrmrbqClFbQX" alt="Contents1" width="25%" height="95px" class="DG_Live" id="DG_Live">
+            <p class="IMG_Text" style="color: white;">DGLIVE</p>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer" id="footer">
+            Copyright © 2000 FujiwaraSoft Inc. All Rights Reserved.
+        </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.js" type="text/javascript"></script>
+<script src="JS/slider.js" type="text/javascript"></script>
+<script src="JS/Top_menu.js" type="text/javascript"></script>
+<script src="JS/Colors.js" type="text/javascript"></script>
+<script src="JS/EventsIMG.js" type="text/javascript"></script>
+<script src="JS/footerFixed.js" type="text/javascript"></script>
+<script src="JS/System.js" type="text/javascript"></script>
+<script>
+    (function(){
+let Home = document.getElementById('Home');
+let Cast = document.getElementById('Cast');
+let FAQ = document.getElementById('FAQ');
+let Contact = document.getElementById('Contact');
+
+function Click_Handler(){
+    setTimeout(function(){
+        Home.addEventListener('click',function(){
+        location.reload();
+    });
+        Cast.addEventListener('click',function(){
+        location.href = 'Cast/index.html';
+    });
+        FAQ.addEventListener('click',function(){
+        location.href = 'FAQ/index.html';
+    });
+        Contact.addEventListener('click',function(){
+        location.href = 'Contact/index.html';
+    }); 
+},2000)
+
+}
+setTimeout(Click_Handler,4500);
+}())
+
+</script>
+</body>
+</html>

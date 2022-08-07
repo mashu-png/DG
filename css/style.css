@@ -148,22 +148,35 @@ body{
 		line-height: 1.4;
 		-webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 10%,rgba(0, 0, 0, 0.6));
 	  }
-	  .Riku_inline_Text{
+	  .Cast_inline_Text{
 		  margin-top: 25px;
 		  margin-left: 5px;
-		  margin-right: 5px;		  
+		  margin-right: 5px;
 		  border: 1px black ;
 	  }
 	  .Cast_Name{
-		  color: #ffffff;
+		display: none;
+		color: #000000;
 	  }
-	  .riku {
+	  .Cast_Name1{
+		display: none;
+		color: #000000;
+	  }
+	  .Cast{
 		  display: none;
 		  text-align: center;
 	  }
-	  .Riku_Text_Logo{
-		  display: none;
-		  margin-left: 5px;
+	  .Cast1{
+		display: none;
+		text-align: center;
+	  }
+	  .Cast_Text_Logo{
+		display: none;
+		margin-left: 5px;
+	  }
+	  .Cast_Text_Logo1{
+		display: none;
+		margin-right: 5px;
 	  }
 	  .FAQ_Text{
 		margin-left: 5px;
@@ -174,9 +187,9 @@ body{
 		-webkit-box-reflect: below -10px -webkit-linear-gradient(top,rgba(0,0,0,0),rgba(0,0,0,0) 10%,rgba(0, 0, 0, 0.6));
 	  }
 	  .FAQ_Main_Text{
-		  width: 100%;
-		  margin: 0 auto;
-		  margin-top: 20px;
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 20px;
 	  }
 	  .FAQ_Trigger{
 		  margin: 0px;

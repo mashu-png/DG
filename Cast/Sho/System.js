@@ -23,4 +23,4 @@ function FadeItem(){
     $('.Right_fhoto').hide().fadeIn(2000);
     $('.Under_fhoto').hide().fadeIn(2500);
 }
-setTimeout(FadeItem,2500);
+setTimeout(FadeItem,5000);

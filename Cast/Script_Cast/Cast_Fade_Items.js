@@ -1,8 +1,8 @@
 (function(){
 
     function main(){
-        setTimeout(Riku,3000);
-        setTimeout(Sho,4500);
+        setTimeout(Riku,4000);
+        setTimeout(Sho,5000);
     }
     function Riku(){
         $('.Cast').hide().fadeIn(2000);

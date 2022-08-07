@@ -11,5 +11,5 @@
         $('.Cast_Text_Logo1').hide().fadeIn(2500);
         $('.Cast_Name1').hide().fadeIn(2500);
     }
-    setTimeout(Sho,5000);
+    setTimeout(Sho,4000);
 }())

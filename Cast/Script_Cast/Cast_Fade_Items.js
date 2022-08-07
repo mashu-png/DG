@@ -1,7 +1,7 @@
 (function(){
 
     function main(){
-        setTimeout(Riku,2500);
+        setTimeout(Riku,3000);
         setTimeout(Sho,4500);
     }
     function Riku(){

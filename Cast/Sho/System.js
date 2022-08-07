@@ -3,10 +3,8 @@ let date = new Date();
 let Month = date.getMonth();
 if(Month === 0){
     Ranking_Element.innerHTML ="12月度2位";
-    console.log(Month);
 }else{
     Ranking_Element.innerHTML = Month + "月度2位";
-    console.log(Month);
 }
 
 let header_Element = document.getElementById('DG_TOP');
@@ -18,3 +16,11 @@ let Tweet_btn_Element = document.getElementById('tweet');
 Tweet_btn_Element.addEventListener('click',function(){
     location.href = 'https://twitter.com/ore30749492';
 });
+
+function FadeItem(){
+    $('.Top_fhoto').hide().fadeIn(1000);
+    $('.Left_fhoto').hide().fadeIn(1500);
+    $('.Right_fhoto').hide().fadeIn(2000);
+    $('.Under_fhoto').hide().fadeIn(2500);
+}
+setTimeout(FadeItem,2500);
